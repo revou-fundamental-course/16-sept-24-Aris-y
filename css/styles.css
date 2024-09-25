@@ -1,1 +1,203 @@
  /* Ini CSS */
+
+body {
+   margin: auto;
+   font-family: Arial, Helvetica, sans-serif;
+   box-sizing: border-box;
+}
+
+.main-header {
+   background-color: rgb(255, 255, 255);
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   border-collapse: collapse;
+   padding: 20px;
+}
+ 
+.logo-icon {
+    height: 48px;
+    width: 106px;
+    background-image: url(../assets/logo-icon-black.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav ul {
+   margin-right: 20px;
+   display: flex;
+   list-style: none;
+   gap: 3rem;
+   font-weight: bold;
+   letter-spacing: 2px;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: black;
+}
+
+.hr-header {
+   color: #acce22;
+   margin: 0;
+   border-style: solid;
+   display: block;
+}
+
+.banner {
+   background: url(../assets/slide-1.jpg);
+   height: 578px;
+   background-position: center;
+   background-size: cover;
+}
+
+.banner-text {
+   position: absolute;
+   top: 25%;
+   left: 3%;
+
+}
+
+.hi-border {
+   padding: 15px;
+   border-radius: 10px;
+   background-color: #acce22;
+   color: #ffffff;
+   margin-bottom: 8px;
+   margin-top: 0;
+   letter-spacing: 2px;
+}
+
+
+.ini-border {
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   font-weight: bold;
+   letter-spacing: 2px;
+}
+
+.movie-container {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.m-1-1 {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.m-1 {
+   display: flex;
+   display: flex;
+   align-items: center;
+}
+
+.movie-1 {
+   margin: 20px;
+   height: 150px;
+   width: 105px;
+   background-image: url(../assets/movie-1.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+.m-2-2 {
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+}
+
+.m-2 {
+   display: flex;
+   display: flex;
+   align-items: center;
+}
+
+.movie-2 {
+   margin: 20px;
+   height: 150px;
+   width: 105px;
+   background-image: url(../assets/movie-2.jpg);
+   background-size: cover;
+   background-position: center;
+}
+
+.h-pendiri {
+   background: #acce22;
+}
+
+.h-pendiri h1 {
+   margin: 0;
+   padding: 20px;
+   color: #ffffff;
+}
+
+.pendiri-container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+}
+
+.p-1 {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.pendiri-1 {
+   height: 150px;
+   width: 150px;
+   background-image: url(../assets/pendiri-1.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 50%;
+}
+
+.p-2 {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.pendiri-2 {
+   height: 150px;
+   width: 150px;
+   background-image: url(../assets/pendiri-2.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 50%;
+}
+
+.p-3 {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.pendiri-3 {
+   height: 150px;
+   width: 150px;
+   background-image: url(../assets/pendiri-3.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 50%;
+}
+
+.p-4 {
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.pendiri-4 {
+   height: 150px;
+   width: 150px;
+   background-image: url(../assets/pendiri-4.jpg);
+   background-size: cover;
+   background-position: center;
+   border-radius: 50%;
+}
